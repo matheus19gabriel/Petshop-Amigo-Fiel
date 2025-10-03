@@ -41,6 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         alert("Cadastro de " + nomeDono + " e seu pet " + nomePet + " realizado com sucesso!");
-    // Para alertar para o usuário
+    // Para o alertar para o usuário
     });
 });
