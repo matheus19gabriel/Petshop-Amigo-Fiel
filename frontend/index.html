@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Fiel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/frontend/ChatGPT Image 2 de out. de 2025, 21_33_45.png" alt="">
+    </header>
+<!-- logo da empresa no topo -->
+    <form action="formulario">
+
+        <h1>Cadastre-se</h1>
+
+        <h3>Dono Do Pet</h3>
+
+        <input type="text" id="nome_dono" placeholder="Digite Seu Nome">
+        <input type="number" id="cpf" placeholder="Digite Seu CPF"  maxlength="11" pattern="\d{11}" inputmode="numeric"> 
+        <!-- adicionei o maxlength e pattern para so aceitar 11 numeros do cpf, e o inputmode para abrir teclado numerico no celular-->
+        <input type="text" id="email" placeholder="digite Seu Email">
+        <input type="number" id="telefone" placeholder="Digite Telefone" maxlength="11" pattern="\d{11}" inputmode="numeric">
+        <input type="text" id="endereço" placeholder="digite Seu Endereço">
+
+        <!-- cadastro do humano dono do pet -->
+
+        <h3>Pet</h3>
+
+        <input type="text" id="nome_pet" placeholder="Digite o Nome do Pet">
+        <input type="text" id="especie" placeholder="Digite a Especie do Pet">
+        <input type="text" id="raca" placeholder="Digite a Raça do Pet">
+        <input type="date" id="data_nascimento" >
+        <p>Data de Nascimento do Pet</p> <!-- não da para colocar o texto dentro da caixa então coloquei acima da caixa -->
+        <input type="text" id="observacoes" placeholder="Deixe alguma Observação">
+        <p>exemplo: alergias ou comportamento</p> <!-- caso o cliente fique confuso sobre essa caixa -->
+        <br>
+        <button type="submit">Cadastrar</button>
+        <!-- cadastro do animal -->
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
